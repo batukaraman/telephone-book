@@ -326,6 +326,6 @@ class Main(QWidget):
 
 if __name__ == '__main__':
     App = QApplication(sys.argv)
-    App.setStyleSheet(open('style.css').read())
+    App.setStyleSheet(open('./style/style.css').read())
     ex = Main()
     sys.exit(App.exec_())
